@@ -1,0 +1,6 @@
+软件作者：www.iotlucker.com
+
+ATCmdsTool V5.2.0 Release Notes
+  - 软件需要运行在Win7及以上版本的系统中（不支持XP）
+  - 软件支持32位/64位系统环境下运行
+  - 当前软件版本支持部分BC260YCN模组AT指令集

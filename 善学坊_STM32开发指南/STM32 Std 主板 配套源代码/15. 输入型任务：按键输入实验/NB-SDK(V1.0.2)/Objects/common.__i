@@ -1,0 +1,7 @@
+-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c
+-fno-rtti -funsigned-char -fshort-enums -fshort-wchar
+-D__EVAL -D__MICROLIB -gdwarf-3 -O1 -ffunction-sections -I ./Libraries/CMSIS/Include -I ./Libraries/CMSIS/Device/ST/STM32F0xx/Include -I ./Libraries/STM32F0xx_StdPeriph_Driver/inc -I ./User
+-ID:/softwares/MDK533/Arm/Packs/Keil/STM32F0xx_DFP/2.1.0/Drivers/CMSIS/Device/ST/STM32F0xx/Include
+-ID:/softwares/MDK533/ARM/CMSIS/Include
+-D__UVISION_VERSION="533" -DSTM32F030x6 -DUSE_STDPERIPH_DRIVER -DSTM32F030
+-o ./objects/common.o -MD "User/common.c"

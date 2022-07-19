@@ -1,0 +1,411 @@
+Dependencies for Project 'January', Target 'Builder': (DO NOT MODIFY !)
+CompilerVersion: 6150000::V6.15::ARMCLANG
+F (.\Libraries\CMSIS\Device\ST\STM32F0xx\Source\Templates\arm\startup_stm32f030.s)(0x54808D0E)(--target=arm-arm-none-eabi -mcpu=cortex-m0 -masm=auto -c-gdwarf-3 -Wa,armasm,--pd,"__MICROLIB SETA 1" -Wa,armasm,--pd,"__EVAL SETA 1"-ID:/softwares/MDK533/Arm/Packs/Keil/STM32F0xx_DFP/2.1.0/Drivers/CMSIS/Device/ST/STM32F0xx/Include-ID:/softwares/MDK533/ARM/CMSIS/Include-Wa,armasm,--pd,"__UVISION_VERSION SETA 533" -Wa,armasm,--pd,"STM32F030x6 SETA 1"-o ./objects/startup_stm32f030.o)
+F (.\Libraries\CMSIS\Device\ST\STM32F0xx\Source\Templates\system_stm32f0xx.c)(0x5482190B)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -D__MICROLIB -gdwarf-3 -O1 -ffunction-sections -I ./Libraries/CMSIS/Include -I ./Libraries/CMSIS/Device/ST/STM32F0xx/Include -I ./Libraries/STM32F0xx_StdPeriph_Driver/inc -I ./User-ID:/softwares/MDK533/Arm/Packs/Keil/STM32F0xx_DFP/2.1.0/Drivers/CMSIS/Device/ST/STM32F0xx/Include-ID:/softwares/MDK533/ARM/CMSIS/Include-D__UVISION_VERSION="533" -DSTM32F030x6 -DUSE_STDPERIPH_DRIVER -DSTM32F030-o ./objects/system_stm32f0xx.o -MD)
+I (Libraries\CMSIS\Device\ST\STM32F0xx\Include\stm32f0xx.h)(0x54808D0E)
+I (Libraries\CMSIS\Include\core_cm0.h)(0x547D9682)
+I (D:\softwares\MDK533\ARM\ARMCLANG\include\stdint.h)(0x5F36D0A8)
+I (Libraries\CMSIS\Include\core_cmInstr.h)(0x600D7356)
+I (Libraries\CMSIS\Include\core_cmFunc.h)(0x547D9682)
+I (Libraries\CMSIS\Device\ST\STM32F0xx\Include\system_stm32f0xx.h)(0x54808D0E)
+I (User\stm32f0xx_conf.h)(0x60154EB8)
+I (Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_adc.h)(0x54808D10)
+I (Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_dma.h)(0x54808D11)
+I (Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_gpio.h)(0x54808D11)
+I (Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_syscfg.h)(0x54808D11)
+I (Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_rcc.h)(0x54808D11)
+I (Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_spi.h)(0x54808D11)
+I (Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_tim.h)(0x54808D10)
+I (Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_usart.h)(0x54808D11)
+I (Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_misc.h)(0x54808D10)
+F (.\Libraries\STM32F0xx_StdPeriph_Driver\src\stm32f0xx_adc.c)(0x54808D13)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -D__MICROLIB -gdwarf-3 -O1 -ffunction-sections -I ./Libraries/CMSIS/Include -I ./Libraries/CMSIS/Device/ST/STM32F0xx/Include -I ./Libraries/STM32F0xx_StdPeriph_Driver/inc -I ./User-ID:/softwares/MDK533/Arm/Packs/Keil/STM32F0xx_DFP/2.1.0/Drivers/CMSIS/Device/ST/STM32F0xx/Include-ID:/softwares/MDK533/ARM/CMSIS/Include-D__UVISION_VERSION="533" -DSTM32F030x6 -DUSE_STDPERIPH_DRIVER -DSTM32F030-o ./objects/stm32f0xx_adc.o -MD)
+I (Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_adc.h)(0x54808D10)
+I (Libraries\CMSIS\Device\ST\STM32F0xx\Include\stm32f0xx.h)(0x54808D0E)
+I (Libraries\CMSIS\Include\core_cm0.h)(0x547D9682)
+I (D:\softwares\MDK533\ARM\ARMCLANG\include\stdint.h)(0x5F36D0A8)
+I (Libraries\CMSIS\Include\core_cmInstr.h)(0x600D7356)
+I (Libraries\CMSIS\Include\core_cmFunc.h)(0x547D9682)
+I (Libraries\CMSIS\Device\ST\STM32F0xx\Include\system_stm32f0xx.h)(0x54808D0E)
+I (User\stm32f0xx_conf.h)(0x60154EB8)
+I (Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_dma.h)(0x54808D11)
+I (Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_gpio.h)(0x54808D11)
+I (Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_syscfg.h)(0x54808D11)
+I (Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_rcc.h)(0x54808D11)
+I (Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_spi.h)(0x54808D11)
+I (Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_tim.h)(0x54808D10)
+I (Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_usart.h)(0x54808D11)
+I (Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_misc.h)(0x54808D10)
+F (.\Libraries\STM32F0xx_StdPeriph_Driver\src\stm32f0xx_exti.c)(0x54808D13)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -D__MICROLIB -gdwarf-3 -O1 -ffunction-sections -I ./Libraries/CMSIS/Include -I ./Libraries/CMSIS/Device/ST/STM32F0xx/Include -I ./Libraries/STM32F0xx_StdPeriph_Driver/inc -I ./User-ID:/softwares/MDK533/Arm/Packs/Keil/STM32F0xx_DFP/2.1.0/Drivers/CMSIS/Device/ST/STM32F0xx/Include-ID:/softwares/MDK533/ARM/CMSIS/Include-D__UVISION_VERSION="533" -DSTM32F030x6 -DUSE_STDPERIPH_DRIVER -DSTM32F030-o ./objects/stm32f0xx_exti.o -MD)
+I (Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_exti.h)(0x54808D10)
+I (Libraries\CMSIS\Device\ST\STM32F0xx\Include\stm32f0xx.h)(0x54808D0E)
+I (Libraries\CMSIS\Include\core_cm0.h)(0x547D9682)
+I (D:\softwares\MDK533\ARM\ARMCLANG\include\stdint.h)(0x5F36D0A8)
+I (Libraries\CMSIS\Include\core_cmInstr.h)(0x600D7356)
+I (Libraries\CMSIS\Include\core_cmFunc.h)(0x547D9682)
+I (Libraries\CMSIS\Device\ST\STM32F0xx\Include\system_stm32f0xx.h)(0x54808D0E)
+I (User\stm32f0xx_conf.h)(0x60154EB8)
+I (Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_adc.h)(0x54808D10)
+I (Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_dma.h)(0x54808D11)
+I (Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_gpio.h)(0x54808D11)
+I (Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_syscfg.h)(0x54808D11)
+I (Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_rcc.h)(0x54808D11)
+I (Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_spi.h)(0x54808D11)
+I (Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_tim.h)(0x54808D10)
+I (Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_usart.h)(0x54808D11)
+I (Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_misc.h)(0x54808D10)
+F (.\Libraries\STM32F0xx_StdPeriph_Driver\src\stm32f0xx_gpio.c)(0x54808D13)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -D__MICROLIB -gdwarf-3 -O1 -ffunction-sections -I ./Libraries/CMSIS/Include -I ./Libraries/CMSIS/Device/ST/STM32F0xx/Include -I ./Libraries/STM32F0xx_StdPeriph_Driver/inc -I ./User-ID:/softwares/MDK533/Arm/Packs/Keil/STM32F0xx_DFP/2.1.0/Drivers/CMSIS/Device/ST/STM32F0xx/Include-ID:/softwares/MDK533/ARM/CMSIS/Include-D__UVISION_VERSION="533" -DSTM32F030x6 -DUSE_STDPERIPH_DRIVER -DSTM32F030-o ./objects/stm32f0xx_gpio.o -MD)
+I (Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_gpio.h)(0x54808D11)
+I (Libraries\CMSIS\Device\ST\STM32F0xx\Include\stm32f0xx.h)(0x54808D0E)
+I (Libraries\CMSIS\Include\core_cm0.h)(0x547D9682)
+I (D:\softwares\MDK533\ARM\ARMCLANG\include\stdint.h)(0x5F36D0A8)
+I (Libraries\CMSIS\Include\core_cmInstr.h)(0x600D7356)
+I (Libraries\CMSIS\Include\core_cmFunc.h)(0x547D9682)
+I (Libraries\CMSIS\Device\ST\STM32F0xx\Include\system_stm32f0xx.h)(0x54808D0E)
+I (User\stm32f0xx_conf.h)(0x60154EB8)
+I (Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_adc.h)(0x54808D10)
+I (Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_dma.h)(0x54808D11)
+I (Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_syscfg.h)(0x54808D11)
+I (Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_rcc.h)(0x54808D11)
+I (Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_spi.h)(0x54808D11)
+I (Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_tim.h)(0x54808D10)
+I (Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_usart.h)(0x54808D11)
+I (Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_misc.h)(0x54808D10)
+F (.\Libraries\STM32F0xx_StdPeriph_Driver\src\stm32f0xx_misc.c)(0x54808D13)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -D__MICROLIB -gdwarf-3 -O1 -ffunction-sections -I ./Libraries/CMSIS/Include -I ./Libraries/CMSIS/Device/ST/STM32F0xx/Include -I ./Libraries/STM32F0xx_StdPeriph_Driver/inc -I ./User-ID:/softwares/MDK533/Arm/Packs/Keil/STM32F0xx_DFP/2.1.0/Drivers/CMSIS/Device/ST/STM32F0xx/Include-ID:/softwares/MDK533/ARM/CMSIS/Include-D__UVISION_VERSION="533" -DSTM32F030x6 -DUSE_STDPERIPH_DRIVER -DSTM32F030-o ./objects/stm32f0xx_misc.o -MD)
+I (Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_misc.h)(0x54808D10)
+I (Libraries\CMSIS\Device\ST\STM32F0xx\Include\stm32f0xx.h)(0x54808D0E)
+I (Libraries\CMSIS\Include\core_cm0.h)(0x547D9682)
+I (D:\softwares\MDK533\ARM\ARMCLANG\include\stdint.h)(0x5F36D0A8)
+I (Libraries\CMSIS\Include\core_cmInstr.h)(0x600D7356)
+I (Libraries\CMSIS\Include\core_cmFunc.h)(0x547D9682)
+I (Libraries\CMSIS\Device\ST\STM32F0xx\Include\system_stm32f0xx.h)(0x54808D0E)
+I (User\stm32f0xx_conf.h)(0x60154EB8)
+I (Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_adc.h)(0x54808D10)
+I (Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_dma.h)(0x54808D11)
+I (Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_gpio.h)(0x54808D11)
+I (Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_syscfg.h)(0x54808D11)
+I (Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_rcc.h)(0x54808D11)
+I (Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_spi.h)(0x54808D11)
+I (Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_tim.h)(0x54808D10)
+I (Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_usart.h)(0x54808D11)
+F (.\Libraries\STM32F0xx_StdPeriph_Driver\src\stm32f0xx_rcc.c)(0x54808D13)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -D__MICROLIB -gdwarf-3 -O1 -ffunction-sections -I ./Libraries/CMSIS/Include -I ./Libraries/CMSIS/Device/ST/STM32F0xx/Include -I ./Libraries/STM32F0xx_StdPeriph_Driver/inc -I ./User-ID:/softwares/MDK533/Arm/Packs/Keil/STM32F0xx_DFP/2.1.0/Drivers/CMSIS/Device/ST/STM32F0xx/Include-ID:/softwares/MDK533/ARM/CMSIS/Include-D__UVISION_VERSION="533" -DSTM32F030x6 -DUSE_STDPERIPH_DRIVER -DSTM32F030-o ./objects/stm32f0xx_rcc.o -MD)
+I (Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_rcc.h)(0x54808D11)
+I (Libraries\CMSIS\Device\ST\STM32F0xx\Include\stm32f0xx.h)(0x54808D0E)
+I (Libraries\CMSIS\Include\core_cm0.h)(0x547D9682)
+I (D:\softwares\MDK533\ARM\ARMCLANG\include\stdint.h)(0x5F36D0A8)
+I (Libraries\CMSIS\Include\core_cmInstr.h)(0x600D7356)
+I (Libraries\CMSIS\Include\core_cmFunc.h)(0x547D9682)
+I (Libraries\CMSIS\Device\ST\STM32F0xx\Include\system_stm32f0xx.h)(0x54808D0E)
+I (User\stm32f0xx_conf.h)(0x60154EB8)
+I (Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_adc.h)(0x54808D10)
+I (Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_dma.h)(0x54808D11)
+I (Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_gpio.h)(0x54808D11)
+I (Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_syscfg.h)(0x54808D11)
+I (Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_spi.h)(0x54808D11)
+I (Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_tim.h)(0x54808D10)
+I (Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_usart.h)(0x54808D11)
+I (Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_misc.h)(0x54808D10)
+F (.\Libraries\STM32F0xx_StdPeriph_Driver\src\stm32f0xx_dma.c)(0x54808D13)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -D__MICROLIB -gdwarf-3 -O1 -ffunction-sections -I ./Libraries/CMSIS/Include -I ./Libraries/CMSIS/Device/ST/STM32F0xx/Include -I ./Libraries/STM32F0xx_StdPeriph_Driver/inc -I ./User-ID:/softwares/MDK533/Arm/Packs/Keil/STM32F0xx_DFP/2.1.0/Drivers/CMSIS/Device/ST/STM32F0xx/Include-ID:/softwares/MDK533/ARM/CMSIS/Include-D__UVISION_VERSION="533" -DSTM32F030x6 -DUSE_STDPERIPH_DRIVER -DSTM32F030-o ./objects/stm32f0xx_dma.o -MD)
+I (Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_dma.h)(0x54808D11)
+I (Libraries\CMSIS\Device\ST\STM32F0xx\Include\stm32f0xx.h)(0x54808D0E)
+I (Libraries\CMSIS\Include\core_cm0.h)(0x547D9682)
+I (D:\softwares\MDK533\ARM\ARMCLANG\include\stdint.h)(0x5F36D0A8)
+I (Libraries\CMSIS\Include\core_cmInstr.h)(0x600D7356)
+I (Libraries\CMSIS\Include\core_cmFunc.h)(0x547D9682)
+I (Libraries\CMSIS\Device\ST\STM32F0xx\Include\system_stm32f0xx.h)(0x54808D0E)
+I (User\stm32f0xx_conf.h)(0x60154EB8)
+I (Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_adc.h)(0x54808D10)
+I (Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_gpio.h)(0x54808D11)
+I (Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_syscfg.h)(0x54808D11)
+I (Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_rcc.h)(0x54808D11)
+I (Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_spi.h)(0x54808D11)
+I (Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_tim.h)(0x54808D10)
+I (Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_usart.h)(0x54808D11)
+I (Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_misc.h)(0x54808D10)
+F (.\Libraries\STM32F0xx_StdPeriph_Driver\src\stm32f0xx_spi.c)(0x54808D13)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -D__MICROLIB -gdwarf-3 -O1 -ffunction-sections -I ./Libraries/CMSIS/Include -I ./Libraries/CMSIS/Device/ST/STM32F0xx/Include -I ./Libraries/STM32F0xx_StdPeriph_Driver/inc -I ./User-ID:/softwares/MDK533/Arm/Packs/Keil/STM32F0xx_DFP/2.1.0/Drivers/CMSIS/Device/ST/STM32F0xx/Include-ID:/softwares/MDK533/ARM/CMSIS/Include-D__UVISION_VERSION="533" -DSTM32F030x6 -DUSE_STDPERIPH_DRIVER -DSTM32F030-o ./objects/stm32f0xx_spi.o -MD)
+I (Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_spi.h)(0x54808D11)
+I (Libraries\CMSIS\Device\ST\STM32F0xx\Include\stm32f0xx.h)(0x54808D0E)
+I (Libraries\CMSIS\Include\core_cm0.h)(0x547D9682)
+I (D:\softwares\MDK533\ARM\ARMCLANG\include\stdint.h)(0x5F36D0A8)
+I (Libraries\CMSIS\Include\core_cmInstr.h)(0x600D7356)
+I (Libraries\CMSIS\Include\core_cmFunc.h)(0x547D9682)
+I (Libraries\CMSIS\Device\ST\STM32F0xx\Include\system_stm32f0xx.h)(0x54808D0E)
+I (User\stm32f0xx_conf.h)(0x60154EB8)
+I (Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_adc.h)(0x54808D10)
+I (Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_dma.h)(0x54808D11)
+I (Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_gpio.h)(0x54808D11)
+I (Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_syscfg.h)(0x54808D11)
+I (Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_rcc.h)(0x54808D11)
+I (Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_tim.h)(0x54808D10)
+I (Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_usart.h)(0x54808D11)
+I (Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_misc.h)(0x54808D10)
+F (.\Libraries\STM32F0xx_StdPeriph_Driver\src\stm32f0xx_syscfg.c)(0x54808D13)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -D__MICROLIB -gdwarf-3 -O1 -ffunction-sections -I ./Libraries/CMSIS/Include -I ./Libraries/CMSIS/Device/ST/STM32F0xx/Include -I ./Libraries/STM32F0xx_StdPeriph_Driver/inc -I ./User-ID:/softwares/MDK533/Arm/Packs/Keil/STM32F0xx_DFP/2.1.0/Drivers/CMSIS/Device/ST/STM32F0xx/Include-ID:/softwares/MDK533/ARM/CMSIS/Include-D__UVISION_VERSION="533" -DSTM32F030x6 -DUSE_STDPERIPH_DRIVER -DSTM32F030-o ./objects/stm32f0xx_syscfg.o -MD)
+I (Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_syscfg.h)(0x54808D11)
+I (Libraries\CMSIS\Device\ST\STM32F0xx\Include\stm32f0xx.h)(0x54808D0E)
+I (Libraries\CMSIS\Include\core_cm0.h)(0x547D9682)
+I (D:\softwares\MDK533\ARM\ARMCLANG\include\stdint.h)(0x5F36D0A8)
+I (Libraries\CMSIS\Include\core_cmInstr.h)(0x600D7356)
+I (Libraries\CMSIS\Include\core_cmFunc.h)(0x547D9682)
+I (Libraries\CMSIS\Device\ST\STM32F0xx\Include\system_stm32f0xx.h)(0x54808D0E)
+I (User\stm32f0xx_conf.h)(0x60154EB8)
+I (Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_adc.h)(0x54808D10)
+I (Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_dma.h)(0x54808D11)
+I (Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_gpio.h)(0x54808D11)
+I (Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_rcc.h)(0x54808D11)
+I (Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_spi.h)(0x54808D11)
+I (Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_tim.h)(0x54808D10)
+I (Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_usart.h)(0x54808D11)
+I (Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_misc.h)(0x54808D10)
+F (.\Libraries\STM32F0xx_StdPeriph_Driver\src\stm32f0xx_usart.c)(0x54808D13)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -D__MICROLIB -gdwarf-3 -O1 -ffunction-sections -I ./Libraries/CMSIS/Include -I ./Libraries/CMSIS/Device/ST/STM32F0xx/Include -I ./Libraries/STM32F0xx_StdPeriph_Driver/inc -I ./User-ID:/softwares/MDK533/Arm/Packs/Keil/STM32F0xx_DFP/2.1.0/Drivers/CMSIS/Device/ST/STM32F0xx/Include-ID:/softwares/MDK533/ARM/CMSIS/Include-D__UVISION_VERSION="533" -DSTM32F030x6 -DUSE_STDPERIPH_DRIVER -DSTM32F030-o ./objects/stm32f0xx_usart.o -MD)
+I (Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_usart.h)(0x54808D11)
+I (Libraries\CMSIS\Device\ST\STM32F0xx\Include\stm32f0xx.h)(0x54808D0E)
+I (Libraries\CMSIS\Include\core_cm0.h)(0x547D9682)
+I (D:\softwares\MDK533\ARM\ARMCLANG\include\stdint.h)(0x5F36D0A8)
+I (Libraries\CMSIS\Include\core_cmInstr.h)(0x600D7356)
+I (Libraries\CMSIS\Include\core_cmFunc.h)(0x547D9682)
+I (Libraries\CMSIS\Device\ST\STM32F0xx\Include\system_stm32f0xx.h)(0x54808D0E)
+I (User\stm32f0xx_conf.h)(0x60154EB8)
+I (Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_adc.h)(0x54808D10)
+I (Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_dma.h)(0x54808D11)
+I (Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_gpio.h)(0x54808D11)
+I (Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_syscfg.h)(0x54808D11)
+I (Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_rcc.h)(0x54808D11)
+I (Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_spi.h)(0x54808D11)
+I (Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_tim.h)(0x54808D10)
+I (Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_misc.h)(0x54808D10)
+F (.\User\main.c)(0x6024175E)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -D__MICROLIB -gdwarf-3 -O1 -ffunction-sections -I ./Libraries/CMSIS/Include -I ./Libraries/CMSIS/Device/ST/STM32F0xx/Include -I ./Libraries/STM32F0xx_StdPeriph_Driver/inc -I ./User-ID:/softwares/MDK533/Arm/Packs/Keil/STM32F0xx_DFP/2.1.0/Drivers/CMSIS/Device/ST/STM32F0xx/Include-ID:/softwares/MDK533/ARM/CMSIS/Include-D__UVISION_VERSION="533" -DSTM32F030x6 -DUSE_STDPERIPH_DRIVER -DSTM32F030-o ./objects/main.o -MD)
+I (User\main.h)(0x54809130)
+I (Libraries\CMSIS\Device\ST\STM32F0xx\Include\stm32f0xx.h)(0x54808D0E)
+I (Libraries\CMSIS\Include\core_cm0.h)(0x547D9682)
+I (D:\softwares\MDK533\ARM\ARMCLANG\include\stdint.h)(0x5F36D0A8)
+I (Libraries\CMSIS\Include\core_cmInstr.h)(0x600D7356)
+I (Libraries\CMSIS\Include\core_cmFunc.h)(0x547D9682)
+I (Libraries\CMSIS\Device\ST\STM32F0xx\Include\system_stm32f0xx.h)(0x54808D0E)
+I (User\stm32f0xx_conf.h)(0x60154EB8)
+I (Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_adc.h)(0x54808D10)
+I (Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_dma.h)(0x54808D11)
+I (Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_gpio.h)(0x54808D11)
+I (Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_syscfg.h)(0x54808D11)
+I (Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_rcc.h)(0x54808D11)
+I (Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_spi.h)(0x54808D11)
+I (Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_tim.h)(0x54808D10)
+I (Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_usart.h)(0x54808D11)
+I (Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_misc.h)(0x54808D10)
+I (User\task_mqtt.h)(0x602537D6)
+I (User\task_sim868.h)(0x604757EA)
+I (User\task_timer.h)(0x600FC40F)
+I (User\task_schd.h)(0x60238FA0)
+I (User\svc_sim868.h)(0x602F910F)
+I (User\svc_sensor.h)(0x60239D6A)
+I (User\svc_msg.h)(0x60236D30)
+I (User\svc_task.h)(0x602533A6)
+I (User\svc_systick.h)(0x60239AD6)
+I (User\hal_sim868.h)(0x60235F5E)
+I (User\hal_pm25.h)(0x601948BD)
+I (User\hal_bme280.h)(0x60157A7E)
+I (User\hal_spi.h)(0x601539CE)
+I (User\hal_uart.h)(0x6023C2FA)
+I (User\hal_systick.h)(0x602386EA)
+F (.\User\stm32f0xx_it.c)(0x54809139)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -D__MICROLIB -gdwarf-3 -O1 -ffunction-sections -I ./Libraries/CMSIS/Include -I ./Libraries/CMSIS/Device/ST/STM32F0xx/Include -I ./Libraries/STM32F0xx_StdPeriph_Driver/inc -I ./User-ID:/softwares/MDK533/Arm/Packs/Keil/STM32F0xx_DFP/2.1.0/Drivers/CMSIS/Device/ST/STM32F0xx/Include-ID:/softwares/MDK533/ARM/CMSIS/Include-D__UVISION_VERSION="533" -DSTM32F030x6 -DUSE_STDPERIPH_DRIVER -DSTM32F030-o ./objects/stm32f0xx_it.o -MD)
+I (User\stm32f0xx_it.h)(0x54809128)
+I (User\main.h)(0x54809130)
+I (Libraries\CMSIS\Device\ST\STM32F0xx\Include\stm32f0xx.h)(0x54808D0E)
+I (Libraries\CMSIS\Include\core_cm0.h)(0x547D9682)
+I (D:\softwares\MDK533\ARM\ARMCLANG\include\stdint.h)(0x5F36D0A8)
+I (Libraries\CMSIS\Include\core_cmInstr.h)(0x600D7356)
+I (Libraries\CMSIS\Include\core_cmFunc.h)(0x547D9682)
+I (Libraries\CMSIS\Device\ST\STM32F0xx\Include\system_stm32f0xx.h)(0x54808D0E)
+I (User\stm32f0xx_conf.h)(0x60154EB8)
+I (Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_adc.h)(0x54808D10)
+I (Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_dma.h)(0x54808D11)
+I (Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_gpio.h)(0x54808D11)
+I (Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_syscfg.h)(0x54808D11)
+I (Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_rcc.h)(0x54808D11)
+I (Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_spi.h)(0x54808D11)
+I (Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_tim.h)(0x54808D10)
+I (Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_usart.h)(0x54808D11)
+I (Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_misc.h)(0x54808D10)
+F (.\User\utils.c)(0x6024F53A)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -D__MICROLIB -gdwarf-3 -O1 -ffunction-sections -I ./Libraries/CMSIS/Include -I ./Libraries/CMSIS/Device/ST/STM32F0xx/Include -I ./Libraries/STM32F0xx_StdPeriph_Driver/inc -I ./User-ID:/softwares/MDK533/Arm/Packs/Keil/STM32F0xx_DFP/2.1.0/Drivers/CMSIS/Device/ST/STM32F0xx/Include-ID:/softwares/MDK533/ARM/CMSIS/Include-D__UVISION_VERSION="533" -DSTM32F030x6 -DUSE_STDPERIPH_DRIVER -DSTM32F030-o ./objects/utils.o -MD)
+I (User\utils.h)(0x6024F506)
+I (D:\softwares\MDK533\ARM\ARMCLANG\include\stdint.h)(0x5F36D0A8)
+I (D:\softwares\MDK533\ARM\ARMCLANG\include\string.h)(0x5F36D0A4)
+F (.\User\json.c)(0x6024F46D)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -D__MICROLIB -gdwarf-3 -O1 -ffunction-sections -I ./Libraries/CMSIS/Include -I ./Libraries/CMSIS/Device/ST/STM32F0xx/Include -I ./Libraries/STM32F0xx_StdPeriph_Driver/inc -I ./User-ID:/softwares/MDK533/Arm/Packs/Keil/STM32F0xx_DFP/2.1.0/Drivers/CMSIS/Device/ST/STM32F0xx/Include-ID:/softwares/MDK533/ARM/CMSIS/Include-D__UVISION_VERSION="533" -DSTM32F030x6 -DUSE_STDPERIPH_DRIVER -DSTM32F030-o ./objects/json.o -MD)
+I (User\json.h)(0x6024F271)
+I (D:\softwares\MDK533\ARM\ARMCLANG\include\stdint.h)(0x5F36D0A8)
+I (User\utils.h)(0x6024F506)
+I (D:\softwares\MDK533\ARM\ARMCLANG\include\string.h)(0x5F36D0A4)
+F (.\User\mqtt.c)(0x604B28A1)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -D__MICROLIB -gdwarf-3 -O1 -ffunction-sections -I ./Libraries/CMSIS/Include -I ./Libraries/CMSIS/Device/ST/STM32F0xx/Include -I ./Libraries/STM32F0xx_StdPeriph_Driver/inc -I ./User-ID:/softwares/MDK533/Arm/Packs/Keil/STM32F0xx_DFP/2.1.0/Drivers/CMSIS/Device/ST/STM32F0xx/Include-ID:/softwares/MDK533/ARM/CMSIS/Include-D__UVISION_VERSION="533" -DSTM32F030x6 -DUSE_STDPERIPH_DRIVER -DSTM32F030-o ./objects/mqtt.o -MD)
+I (User\mqtt.h)(0x601A599D)
+I (D:\softwares\MDK533\ARM\ARMCLANG\include\stdint.h)(0x5F36D0A8)
+I (D:\softwares\MDK533\ARM\ARMCLANG\include\string.h)(0x5F36D0A4)
+F (.\User\atsp.c)(0x60254370)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -D__MICROLIB -gdwarf-3 -O1 -ffunction-sections -I ./Libraries/CMSIS/Include -I ./Libraries/CMSIS/Device/ST/STM32F0xx/Include -I ./Libraries/STM32F0xx_StdPeriph_Driver/inc -I ./User-ID:/softwares/MDK533/Arm/Packs/Keil/STM32F0xx_DFP/2.1.0/Drivers/CMSIS/Device/ST/STM32F0xx/Include-ID:/softwares/MDK533/ARM/CMSIS/Include-D__UVISION_VERSION="533" -DSTM32F030x6 -DUSE_STDPERIPH_DRIVER -DSTM32F030-o ./objects/atsp.o -MD)
+I (User\atsp.h)(0x602F7F8F)
+I (D:\softwares\MDK533\ARM\ARMCLANG\include\stdint.h)(0x5F36D0A8)
+I (User\utils.h)(0x6024F506)
+I (D:\softwares\MDK533\ARM\ARMCLANG\include\string.h)(0x5F36D0A4)
+F (.\User\bme280.c)(0x601006D9)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -D__MICROLIB -gdwarf-3 -O1 -ffunction-sections -I ./Libraries/CMSIS/Include -I ./Libraries/CMSIS/Device/ST/STM32F0xx/Include -I ./Libraries/STM32F0xx_StdPeriph_Driver/inc -I ./User-ID:/softwares/MDK533/Arm/Packs/Keil/STM32F0xx_DFP/2.1.0/Drivers/CMSIS/Device/ST/STM32F0xx/Include-ID:/softwares/MDK533/ARM/CMSIS/Include-D__UVISION_VERSION="533" -DSTM32F030x6 -DUSE_STDPERIPH_DRIVER -DSTM32F030-o ./objects/bme280.o -MD)
+I (User\bme280.h)(0x5F02BFD5)
+I (User\bme280_defs.h)(0x60157772)
+I (D:\softwares\MDK533\ARM\ARMCLANG\include\stdint.h)(0x5F36D0A8)
+I (D:\softwares\MDK533\ARM\ARMCLANG\include\stddef.h)(0x5F36D0AE)
+F (.\User\hal_systick.c)(0x60235A55)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -D__MICROLIB -gdwarf-3 -O1 -ffunction-sections -I ./Libraries/CMSIS/Include -I ./Libraries/CMSIS/Device/ST/STM32F0xx/Include -I ./Libraries/STM32F0xx_StdPeriph_Driver/inc -I ./User-ID:/softwares/MDK533/Arm/Packs/Keil/STM32F0xx_DFP/2.1.0/Drivers/CMSIS/Device/ST/STM32F0xx/Include-ID:/softwares/MDK533/ARM/CMSIS/Include-D__UVISION_VERSION="533" -DSTM32F030x6 -DUSE_STDPERIPH_DRIVER -DSTM32F030-o ./objects/hal_systick.o -MD)
+I (User\hal_systick.h)(0x602386EA)
+I (D:\softwares\MDK533\ARM\ARMCLANG\include\stdint.h)(0x5F36D0A8)
+I (Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_syscfg.h)(0x54808D11)
+I (Libraries\CMSIS\Device\ST\STM32F0xx\Include\stm32f0xx.h)(0x54808D0E)
+I (Libraries\CMSIS\Include\core_cm0.h)(0x547D9682)
+I (Libraries\CMSIS\Include\core_cmInstr.h)(0x600D7356)
+I (Libraries\CMSIS\Include\core_cmFunc.h)(0x547D9682)
+I (Libraries\CMSIS\Device\ST\STM32F0xx\Include\system_stm32f0xx.h)(0x54808D0E)
+I (User\stm32f0xx_conf.h)(0x60154EB8)
+I (Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_adc.h)(0x54808D10)
+I (Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_dma.h)(0x54808D11)
+I (Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_gpio.h)(0x54808D11)
+I (Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_rcc.h)(0x54808D11)
+I (Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_spi.h)(0x54808D11)
+I (Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_tim.h)(0x54808D10)
+I (Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_usart.h)(0x54808D11)
+I (Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_misc.h)(0x54808D10)
+F (.\User\hal_uart.c)(0x6023C320)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -D__MICROLIB -gdwarf-3 -O1 -ffunction-sections -I ./Libraries/CMSIS/Include -I ./Libraries/CMSIS/Device/ST/STM32F0xx/Include -I ./Libraries/STM32F0xx_StdPeriph_Driver/inc -I ./User-ID:/softwares/MDK533/Arm/Packs/Keil/STM32F0xx_DFP/2.1.0/Drivers/CMSIS/Device/ST/STM32F0xx/Include-ID:/softwares/MDK533/ARM/CMSIS/Include-D__UVISION_VERSION="533" -DSTM32F030x6 -DUSE_STDPERIPH_DRIVER -DSTM32F030-o ./objects/hal_uart.o -MD)
+I (User\hal_uart.h)(0x6023C2FA)
+I (D:\softwares\MDK533\ARM\ARMCLANG\include\stdint.h)(0x5F36D0A8)
+I (Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_usart.h)(0x54808D11)
+I (Libraries\CMSIS\Device\ST\STM32F0xx\Include\stm32f0xx.h)(0x54808D0E)
+I (Libraries\CMSIS\Include\core_cm0.h)(0x547D9682)
+I (Libraries\CMSIS\Include\core_cmInstr.h)(0x600D7356)
+I (Libraries\CMSIS\Include\core_cmFunc.h)(0x547D9682)
+I (Libraries\CMSIS\Device\ST\STM32F0xx\Include\system_stm32f0xx.h)(0x54808D0E)
+I (User\stm32f0xx_conf.h)(0x60154EB8)
+I (Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_adc.h)(0x54808D10)
+I (Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_dma.h)(0x54808D11)
+I (Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_gpio.h)(0x54808D11)
+I (Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_syscfg.h)(0x54808D11)
+I (Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_rcc.h)(0x54808D11)
+I (Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_spi.h)(0x54808D11)
+I (Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_tim.h)(0x54808D10)
+I (Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_misc.h)(0x54808D10)
+F (.\User\hal_spi.c)(0x60235B87)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -D__MICROLIB -gdwarf-3 -O1 -ffunction-sections -I ./Libraries/CMSIS/Include -I ./Libraries/CMSIS/Device/ST/STM32F0xx/Include -I ./Libraries/STM32F0xx_StdPeriph_Driver/inc -I ./User-ID:/softwares/MDK533/Arm/Packs/Keil/STM32F0xx_DFP/2.1.0/Drivers/CMSIS/Device/ST/STM32F0xx/Include-ID:/softwares/MDK533/ARM/CMSIS/Include-D__UVISION_VERSION="533" -DSTM32F030x6 -DUSE_STDPERIPH_DRIVER -DSTM32F030-o ./objects/hal_spi.o -MD)
+I (User\hal_spi.h)(0x601539CE)
+I (D:\softwares\MDK533\ARM\ARMCLANG\include\stdint.h)(0x5F36D0A8)
+I (User\hal_systick.h)(0x602386EA)
+I (Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_spi.h)(0x54808D11)
+I (Libraries\CMSIS\Device\ST\STM32F0xx\Include\stm32f0xx.h)(0x54808D0E)
+I (Libraries\CMSIS\Include\core_cm0.h)(0x547D9682)
+I (Libraries\CMSIS\Include\core_cmInstr.h)(0x600D7356)
+I (Libraries\CMSIS\Include\core_cmFunc.h)(0x547D9682)
+I (Libraries\CMSIS\Device\ST\STM32F0xx\Include\system_stm32f0xx.h)(0x54808D0E)
+I (User\stm32f0xx_conf.h)(0x60154EB8)
+I (Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_adc.h)(0x54808D10)
+I (Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_dma.h)(0x54808D11)
+I (Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_gpio.h)(0x54808D11)
+I (Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_syscfg.h)(0x54808D11)
+I (Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_rcc.h)(0x54808D11)
+I (Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_tim.h)(0x54808D10)
+I (Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_usart.h)(0x54808D11)
+I (Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_misc.h)(0x54808D10)
+F (.\User\hal_bme280.c)(0x60235BAE)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -D__MICROLIB -gdwarf-3 -O1 -ffunction-sections -I ./Libraries/CMSIS/Include -I ./Libraries/CMSIS/Device/ST/STM32F0xx/Include -I ./Libraries/STM32F0xx_StdPeriph_Driver/inc -I ./User-ID:/softwares/MDK533/Arm/Packs/Keil/STM32F0xx_DFP/2.1.0/Drivers/CMSIS/Device/ST/STM32F0xx/Include-ID:/softwares/MDK533/ARM/CMSIS/Include-D__UVISION_VERSION="533" -DSTM32F030x6 -DUSE_STDPERIPH_DRIVER -DSTM32F030-o ./objects/hal_bme280.o -MD)
+I (User\hal_bme280.h)(0x60157A7E)
+I (D:\softwares\MDK533\ARM\ARMCLANG\include\stdint.h)(0x5F36D0A8)
+I (User\hal_systick.h)(0x602386EA)
+I (User\hal_spi.h)(0x601539CE)
+I (User\bme280.h)(0x5F02BFD5)
+I (User\bme280_defs.h)(0x60157772)
+I (D:\softwares\MDK533\ARM\ARMCLANG\include\stddef.h)(0x5F36D0AE)
+I (D:\softwares\MDK533\ARM\ARMCLANG\include\math.h)(0x5F36D0A0)
+F (.\User\hal_pm25.c)(0x60235C0B)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -D__MICROLIB -gdwarf-3 -O1 -ffunction-sections -I ./Libraries/CMSIS/Include -I ./Libraries/CMSIS/Device/ST/STM32F0xx/Include -I ./Libraries/STM32F0xx_StdPeriph_Driver/inc -I ./User-ID:/softwares/MDK533/Arm/Packs/Keil/STM32F0xx_DFP/2.1.0/Drivers/CMSIS/Device/ST/STM32F0xx/Include-ID:/softwares/MDK533/ARM/CMSIS/Include-D__UVISION_VERSION="533" -DSTM32F030x6 -DUSE_STDPERIPH_DRIVER -DSTM32F030-o ./objects/hal_pm25.o -MD)
+I (User\hal_pm25.h)(0x601948BD)
+I (D:\softwares\MDK533\ARM\ARMCLANG\include\stdint.h)(0x5F36D0A8)
+I (User\hal_systick.h)(0x602386EA)
+I (Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_adc.h)(0x54808D10)
+I (Libraries\CMSIS\Device\ST\STM32F0xx\Include\stm32f0xx.h)(0x54808D0E)
+I (Libraries\CMSIS\Include\core_cm0.h)(0x547D9682)
+I (Libraries\CMSIS\Include\core_cmInstr.h)(0x600D7356)
+I (Libraries\CMSIS\Include\core_cmFunc.h)(0x547D9682)
+I (Libraries\CMSIS\Device\ST\STM32F0xx\Include\system_stm32f0xx.h)(0x54808D0E)
+I (User\stm32f0xx_conf.h)(0x60154EB8)
+I (Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_dma.h)(0x54808D11)
+I (Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_gpio.h)(0x54808D11)
+I (Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_syscfg.h)(0x54808D11)
+I (Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_rcc.h)(0x54808D11)
+I (Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_spi.h)(0x54808D11)
+I (Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_tim.h)(0x54808D10)
+I (Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_usart.h)(0x54808D11)
+I (Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_misc.h)(0x54808D10)
+F (.\User\hal_sim868.c)(0x60235FFA)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -D__MICROLIB -gdwarf-3 -O1 -ffunction-sections -I ./Libraries/CMSIS/Include -I ./Libraries/CMSIS/Device/ST/STM32F0xx/Include -I ./Libraries/STM32F0xx_StdPeriph_Driver/inc -I ./User-ID:/softwares/MDK533/Arm/Packs/Keil/STM32F0xx_DFP/2.1.0/Drivers/CMSIS/Device/ST/STM32F0xx/Include-ID:/softwares/MDK533/ARM/CMSIS/Include-D__UVISION_VERSION="533" -DSTM32F030x6 -DUSE_STDPERIPH_DRIVER -DSTM32F030-o ./objects/hal_sim868.o -MD)
+I (User\hal_sim868.h)(0x60235F5E)
+I (D:\softwares\MDK533\ARM\ARMCLANG\include\stdint.h)(0x5F36D0A8)
+I (User\hal_systick.h)(0x602386EA)
+I (Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_gpio.h)(0x54808D11)
+I (Libraries\CMSIS\Device\ST\STM32F0xx\Include\stm32f0xx.h)(0x54808D0E)
+I (Libraries\CMSIS\Include\core_cm0.h)(0x547D9682)
+I (Libraries\CMSIS\Include\core_cmInstr.h)(0x600D7356)
+I (Libraries\CMSIS\Include\core_cmFunc.h)(0x547D9682)
+I (Libraries\CMSIS\Device\ST\STM32F0xx\Include\system_stm32f0xx.h)(0x54808D0E)
+I (User\stm32f0xx_conf.h)(0x60154EB8)
+I (Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_adc.h)(0x54808D10)
+I (Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_dma.h)(0x54808D11)
+I (Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_syscfg.h)(0x54808D11)
+I (Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_rcc.h)(0x54808D11)
+I (Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_spi.h)(0x54808D11)
+I (Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_tim.h)(0x54808D10)
+I (Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_usart.h)(0x54808D11)
+I (Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_misc.h)(0x54808D10)
+F (.\User\svc_systick.c)(0x60239AE1)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -D__MICROLIB -gdwarf-3 -O1 -ffunction-sections -I ./Libraries/CMSIS/Include -I ./Libraries/CMSIS/Device/ST/STM32F0xx/Include -I ./Libraries/STM32F0xx_StdPeriph_Driver/inc -I ./User-ID:/softwares/MDK533/Arm/Packs/Keil/STM32F0xx_DFP/2.1.0/Drivers/CMSIS/Device/ST/STM32F0xx/Include-ID:/softwares/MDK533/ARM/CMSIS/Include-D__UVISION_VERSION="533" -DSTM32F030x6 -DUSE_STDPERIPH_DRIVER -DSTM32F030-o ./objects/svc_systick.o -MD)
+I (User\svc_systick.h)(0x60239AD6)
+I (D:\softwares\MDK533\ARM\ARMCLANG\include\stdint.h)(0x5F36D0A8)
+I (User\hal_systick.h)(0x602386EA)
+F (.\User\svc_task.c)(0x60237BA4)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -D__MICROLIB -gdwarf-3 -O1 -ffunction-sections -I ./Libraries/CMSIS/Include -I ./Libraries/CMSIS/Device/ST/STM32F0xx/Include -I ./Libraries/STM32F0xx_StdPeriph_Driver/inc -I ./User-ID:/softwares/MDK533/Arm/Packs/Keil/STM32F0xx_DFP/2.1.0/Drivers/CMSIS/Device/ST/STM32F0xx/Include-ID:/softwares/MDK533/ARM/CMSIS/Include-D__UVISION_VERSION="533" -DSTM32F030x6 -DUSE_STDPERIPH_DRIVER -DSTM32F030-o ./objects/svc_task.o -MD)
+I (User\svc_task.h)(0x602533A6)
+I (D:\softwares\MDK533\ARM\ARMCLANG\include\stdint.h)(0x5F36D0A8)
+F (.\User\svc_msg.c)(0x60475C96)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -D__MICROLIB -gdwarf-3 -O1 -ffunction-sections -I ./Libraries/CMSIS/Include -I ./Libraries/CMSIS/Device/ST/STM32F0xx/Include -I ./Libraries/STM32F0xx_StdPeriph_Driver/inc -I ./User-ID:/softwares/MDK533/Arm/Packs/Keil/STM32F0xx_DFP/2.1.0/Drivers/CMSIS/Device/ST/STM32F0xx/Include-ID:/softwares/MDK533/ARM/CMSIS/Include-D__UVISION_VERSION="533" -DSTM32F030x6 -DUSE_STDPERIPH_DRIVER -DSTM32F030-o ./objects/svc_msg.o -MD)
+I (User\svc_msg.h)(0x60236D30)
+I (D:\softwares\MDK533\ARM\ARMCLANG\include\stdint.h)(0x5F36D0A8)
+I (User\hal_systick.h)(0x602386EA)
+I (User\hal_uart.h)(0x6023C2FA)
+F (.\User\svc_sensor.c)(0x60239E09)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -D__MICROLIB -gdwarf-3 -O1 -ffunction-sections -I ./Libraries/CMSIS/Include -I ./Libraries/CMSIS/Device/ST/STM32F0xx/Include -I ./Libraries/STM32F0xx_StdPeriph_Driver/inc -I ./User-ID:/softwares/MDK533/Arm/Packs/Keil/STM32F0xx_DFP/2.1.0/Drivers/CMSIS/Device/ST/STM32F0xx/Include-ID:/softwares/MDK533/ARM/CMSIS/Include-D__UVISION_VERSION="533" -DSTM32F030x6 -DUSE_STDPERIPH_DRIVER -DSTM32F030-o ./objects/svc_sensor.o -MD)
+I (User\svc_sensor.h)(0x60239D6A)
+I (D:\softwares\MDK533\ARM\ARMCLANG\include\stdint.h)(0x5F36D0A8)
+I (User\hal_pm25.h)(0x601948BD)
+I (User\hal_bme280.h)(0x60157A7E)
+F (.\User\svc_sim868.c)(0x602F910A)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -D__MICROLIB -gdwarf-3 -O1 -ffunction-sections -I ./Libraries/CMSIS/Include -I ./Libraries/CMSIS/Device/ST/STM32F0xx/Include -I ./Libraries/STM32F0xx_StdPeriph_Driver/inc -I ./User-ID:/softwares/MDK533/Arm/Packs/Keil/STM32F0xx_DFP/2.1.0/Drivers/CMSIS/Device/ST/STM32F0xx/Include-ID:/softwares/MDK533/ARM/CMSIS/Include-D__UVISION_VERSION="533" -DSTM32F030x6 -DUSE_STDPERIPH_DRIVER -DSTM32F030-o ./objects/svc_sim868.o -MD)
+I (User\svc_sim868.h)(0x602F910F)
+I (D:\softwares\MDK533\ARM\ARMCLANG\include\stdint.h)(0x5F36D0A8)
+I (User\svc_msg.h)(0x60236D30)
+I (User\svc_task.h)(0x602533A6)
+I (User\hal_uart.h)(0x6023C2FA)
+I (User\hal_systick.h)(0x602386EA)
+I (User\atsp.h)(0x602F7F8F)
+I (D:\softwares\MDK533\ARM\ARMCLANG\include\stdlib.h)(0x5F36D0AE)
+I (D:\softwares\MDK533\ARM\ARMCLANG\include\string.h)(0x5F36D0A4)
+F (.\User\task_schd.c)(0x60239AF5)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -D__MICROLIB -gdwarf-3 -O1 -ffunction-sections -I ./Libraries/CMSIS/Include -I ./Libraries/CMSIS/Device/ST/STM32F0xx/Include -I ./Libraries/STM32F0xx_StdPeriph_Driver/inc -I ./User-ID:/softwares/MDK533/Arm/Packs/Keil/STM32F0xx_DFP/2.1.0/Drivers/CMSIS/Device/ST/STM32F0xx/Include-ID:/softwares/MDK533/ARM/CMSIS/Include-D__UVISION_VERSION="533" -DSTM32F030x6 -DUSE_STDPERIPH_DRIVER -DSTM32F030-o ./objects/task_schd.o -MD)
+I (User\task_schd.h)(0x60238FA0)
+I (D:\softwares\MDK533\ARM\ARMCLANG\include\stdint.h)(0x5F36D0A8)
+I (User\svc_sim868.h)(0x602F910F)
+I (User\svc_task.h)(0x602533A6)
+I (User\svc_systick.h)(0x60239AD6)
+F (.\User\task_timer.c)(0x60254A0C)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -D__MICROLIB -gdwarf-3 -O1 -ffunction-sections -I ./Libraries/CMSIS/Include -I ./Libraries/CMSIS/Device/ST/STM32F0xx/Include -I ./Libraries/STM32F0xx_StdPeriph_Driver/inc -I ./User-ID:/softwares/MDK533/Arm/Packs/Keil/STM32F0xx_DFP/2.1.0/Drivers/CMSIS/Device/ST/STM32F0xx/Include-ID:/softwares/MDK533/ARM/CMSIS/Include-D__UVISION_VERSION="533" -DSTM32F030x6 -DUSE_STDPERIPH_DRIVER -DSTM32F030-o ./objects/task_timer.o -MD)
+I (User\task_timer.h)(0x600FC40F)
+I (D:\softwares\MDK533\ARM\ARMCLANG\include\stdint.h)(0x5F36D0A8)
+I (User\task_mqtt.h)(0x602537D6)
+I (User\svc_sensor.h)(0x60239D6A)
+I (User\svc_task.h)(0x602533A6)
+I (User\json.h)(0x6024F271)
+I (User\utils.h)(0x6024F506)
+F (.\User\task_sim868.c)(0x60475A7A)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -D__MICROLIB -gdwarf-3 -O1 -ffunction-sections -I ./Libraries/CMSIS/Include -I ./Libraries/CMSIS/Device/ST/STM32F0xx/Include -I ./Libraries/STM32F0xx_StdPeriph_Driver/inc -I ./User-ID:/softwares/MDK533/Arm/Packs/Keil/STM32F0xx_DFP/2.1.0/Drivers/CMSIS/Device/ST/STM32F0xx/Include-ID:/softwares/MDK533/ARM/CMSIS/Include-D__UVISION_VERSION="533" -DSTM32F030x6 -DUSE_STDPERIPH_DRIVER -DSTM32F030-o ./objects/task_sim868.o -MD)
+I (User\task_sim868.h)(0x604757EA)
+I (D:\softwares\MDK533\ARM\ARMCLANG\include\stdint.h)(0x5F36D0A8)
+I (User\task_mqtt.h)(0x602537D6)
+I (User\svc_sim868.h)(0x602F910F)
+I (User\svc_task.h)(0x602533A6)
+I (User\atsp.h)(0x602F7F8F)
+I (User\json.h)(0x6024F271)
+I (User\utils.h)(0x6024F506)
+I (D:\softwares\MDK533\ARM\ARMCLANG\include\stdlib.h)(0x5F36D0AE)
+I (D:\softwares\MDK533\ARM\ARMCLANG\include\string.h)(0x5F36D0A4)
+F (.\User\task_mqtt.c)(0x60256B00)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -D__MICROLIB -gdwarf-3 -O1 -ffunction-sections -I ./Libraries/CMSIS/Include -I ./Libraries/CMSIS/Device/ST/STM32F0xx/Include -I ./Libraries/STM32F0xx_StdPeriph_Driver/inc -I ./User-ID:/softwares/MDK533/Arm/Packs/Keil/STM32F0xx_DFP/2.1.0/Drivers/CMSIS/Device/ST/STM32F0xx/Include-ID:/softwares/MDK533/ARM/CMSIS/Include-D__UVISION_VERSION="533" -DSTM32F030x6 -DUSE_STDPERIPH_DRIVER -DSTM32F030-o ./objects/task_mqtt.o -MD)
+I (User\task_mqtt.h)(0x602537D6)
+I (D:\softwares\MDK533\ARM\ARMCLANG\include\stdint.h)(0x5F36D0A8)
+I (User\task_sim868.h)(0x604757EA)
+I (User\svc_task.h)(0x602533A6)
+I (User\mqtt.h)(0x601A599D)
+I (User\utils.h)(0x6024F506)
+I (D:\softwares\MDK533\ARM\ARMCLANG\include\string.h)(0x5F36D0A4)

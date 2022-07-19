@@ -1,0 +1,11 @@
+Dependencies for Project 'test', Target 'Target 1': (DO NOT MODIFY !)
+CompilerVersion: 6150000::V6.15::ARMCLANG
+F (.\main.c)(0x610F4C31)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-3 -O1 -ffunction-sections -I ./Libraries/CMSIS/Include -I ./Libraries/CMSIS/Device/ST/STM32F0xx/Include -I ./Libraries/STM32F0xx_StdPeriph_Driver/inc -I ./User-ID:/softwares/MDK533/Arm/Packs/Keil/STM32F0xx_DFP/2.1.0/Drivers/CMSIS/Device/ST/STM32F0xx/Include-ID:/softwares/MDK533/ARM/CMSIS/Include-D__UVISION_VERSION="533" -DSTM32F030x6 -DSTM32F030-o ./objects/main.o -MD)
+F (.\Libraries\CMSIS\Device\ST\STM32F0xx\Source\Templates\system_stm32f0xx.c)(0x5482190B)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-3 -O1 -ffunction-sections -I ./Libraries/CMSIS/Include -I ./Libraries/CMSIS/Device/ST/STM32F0xx/Include -I ./Libraries/STM32F0xx_StdPeriph_Driver/inc -I ./User-ID:/softwares/MDK533/Arm/Packs/Keil/STM32F0xx_DFP/2.1.0/Drivers/CMSIS/Device/ST/STM32F0xx/Include-ID:/softwares/MDK533/ARM/CMSIS/Include-D__UVISION_VERSION="533" -DSTM32F030x6 -DSTM32F030-o ./objects/system_stm32f0xx.o -MD)
+I (Libraries\CMSIS\Device\ST\STM32F0xx\Include\stm32f0xx.h)(0x54808D0E)
+I (Libraries\CMSIS\Include\core_cm0.h)(0x547D9682)
+I (D:\softwares\MDK533\ARM\ARMCLANG\include\stdint.h)(0x5F36D0A8)
+I (Libraries\CMSIS\Include\core_cmInstr.h)(0x600D7356)
+I (Libraries\CMSIS\Include\core_cmFunc.h)(0x547D9682)
+I (Libraries\CMSIS\Device\ST\STM32F0xx\Include\system_stm32f0xx.h)(0x54808D0E)
+F (.\Libraries\CMSIS\Device\ST\STM32F0xx\Source\Templates\arm\startup_stm32f030.s)(0x54808D0E)(--target=arm-arm-none-eabi -mcpu=cortex-m0 -masm=auto -c-gdwarf-3 -Wa,armasm,--pd,"__EVAL SETA 1"-ID:/softwares/MDK533/Arm/Packs/Keil/STM32F0xx_DFP/2.1.0/Drivers/CMSIS/Device/ST/STM32F0xx/Include-ID:/softwares/MDK533/ARM/CMSIS/Include-Wa,armasm,--pd,"__UVISION_VERSION SETA 533" -Wa,armasm,--pd,"STM32F030x6 SETA 1"-o ./objects/startup_stm32f030.o)
